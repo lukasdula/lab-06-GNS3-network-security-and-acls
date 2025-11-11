@@ -198,3 +198,7 @@ Access Control Lists control communication between VLANs as designed.
 The Admin VLAN (99) has full access, the User VLAN (10) is limited to the Guest VLAN (20), and the Guest VLAN (20) remains fully isolated.  
 After fixing the port-security issue on SW1, all connectivity tests confirm that the ACL policy works correctly.
 
+---
+
+Next part: [Securing Switch Ports](02-securing-switch-ports.md)
+
