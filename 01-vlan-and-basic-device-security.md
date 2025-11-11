@@ -319,7 +319,7 @@ This chapter demonstrates the configuration of VLAN segmentation and basic devic
 
 ---
 
-Next part:
+Next part: [Securing Switch Ports](02-securing-switch-ports.md)
 
 
 
