@@ -26,11 +26,11 @@ This lab demonstrates essential network security functions from the CCNA I level
 
 ## **Lab Structure**
 
-1. VLAN and Basic Device Security
+1. [VLAN and Basic Device Security](01-vlan-and-basic-device-security.md)
     
-2. Securing Switch Ports
+2. [Securing Switch Ports](02-securing-switch-ports.md)
     
-3. Access Control Lists
+3. [Access Control Lists](03-access-control-lists.md)
     
 
 
