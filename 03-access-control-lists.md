@@ -200,5 +200,5 @@ After fixing the port-security issue on SW1, all connectivity tests confirm that
 
 ---
 
-Next part: [Securing Switch Ports](02-securing-switch-ports.md)
+**Back to project overview:** [README](README.md)
 
