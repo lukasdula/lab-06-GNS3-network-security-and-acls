@@ -200,5 +200,5 @@ After fixing the port-security issue on SW1, all connectivity tests confirm that
 
 ---
 
-**Back to project overview:** [README](README.md)
+**Back to lab overview:** [README](README.md)
 
