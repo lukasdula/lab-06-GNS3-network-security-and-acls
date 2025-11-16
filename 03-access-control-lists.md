@@ -1,6 +1,8 @@
 
 # **3 - Access Control List**
 
+<br><br>
+
 ## **3.1 Introduction**
 
 This chapter introduces **Access Control Lists (ACLs)** as a method to control communication between VLANs and enhance network security. ACLs define which devices or networks are allowed or denied access to certain resources.
@@ -21,6 +23,8 @@ The existing topology includes three VLANs: VLAN 10 for **Users**, VLAN 20 for *
 
 ![](images/Pasted%20image%2020251111212921.png)
 
+<br><br>
+
 ## **3.2 Topology**
 
 | Device           | Type         | Interface | Connected to → | Peer Interface | IP Address    | Subnet Mask   | Gateway      |
@@ -35,6 +39,7 @@ The existing topology includes three VLANs: VLAN 10 for **Users**, VLAN 20 for *
 | **Guest (VPCS)** | Host         | e0        | SW1            | Gi0/3          | 192.168.20.10 | 255.255.255.0 | 192.168.20.1 |
 | **Admin (VPCS)** | Host         | e0        | SW1            | Gi0/1          | 192.168.99.10 | 255.255.255.0 | 192.168.99.1 |
 
+<br><br>
 
 ## **3.3 Steps Overview**
 
@@ -43,6 +48,8 @@ The existing topology includes three VLANs: VLAN 10 for **Users**, VLAN 20 for *
 2. Apply ACL to the router subinterfaces that handle inter-VLAN routing.
     
 3. Verify connectivity using ping and diagnostic commands.
+
+<br><br>
 
 ## **3.4 ACL Configuration (R1)**
 
@@ -80,6 +87,8 @@ exit
 ```
 ![](images/Pasted%20image%2020251111201022.png)
 
+<br><br>
+
 ## **3.5 Apply ACL to Subinterfaces**
 
 After the ACL is created, it is applied to the router interfaces that handle inter-VLAN routing. The ACL is applied in the inbound direction so that traffic is filtered when it enters the router.
@@ -105,6 +114,7 @@ exit
 
 This setup keeps VLAN 10 and VLAN 20 traffic filtered according to the ACL rules as it enters the router. VLAN 99 keeps full management access and can use ping for testing. The ICMP rules allow only the Admin network to start pings, while other VLANs can only reply.
 
+<br><br>
 
 ## **3.6 Troubleshooting**
 
@@ -157,6 +167,7 @@ show port-security
 
 After the correction, the ACL policy operated exactly as intended -> the Admin network regained full access, while User and Guest VLANs followed their restricted rules.
 
+<br><br>
 
 ## **3.7 Verification – ACL Connectivity Tests**
 
@@ -191,6 +202,8 @@ User> ping 192.168.20.10
 User> ping 192.168.99.10
 ```
 ![](images/Pasted%20image%2020251111212249.png)
+
+<br><br>
 
 ## 3.8 **Conclusion**
 
