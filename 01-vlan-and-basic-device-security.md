@@ -1,5 +1,6 @@
 # **01 – Vlan and Basic Device Security**
 
+<br><br>
 
 ## 1.1 **Introduction**  
 
@@ -37,6 +38,7 @@ This lab focuses on securing Cisco network devices at the fundamental level. VLA
 > VLAN 99 is used exclusively for administrative access.  
 > The switch has a management IP address within this VLAN, and the router provides the default gateway (192.168.99.1) for all management devices.
 
+<br><br>
 
 ## **1.2 Topology**
 
@@ -52,6 +54,7 @@ This lab focuses on securing Cisco network devices at the fundamental level. VLA
 | **Guest (VPCS)** | Host         | e0        | SW1            | Gi0/3          | 192.168.20.10 | 255.255.255.0 | 192.168.20.1 |
 | **Admin (VPCS)** | Host         | e0        | SW1            | Gi0/1          | 192.168.99.10 | 255.255.255.0 | 192.168.99.1 |
 
+<br><br>
 
 ## 1.3 **Steps**
 
@@ -66,7 +69,8 @@ This lab focuses on securing Cisco network devices at the fundamental level. VLA
 5. Secure privileged and console access with passwords and encryption.
     
 6. Display a login banner for authorized access.
-    
+
+<br><br>
 
 ## **1.4 VLAN Configuration and Port Assignment (SW1)****
 
@@ -125,6 +129,7 @@ write memory
 ```
 ![](images/Pasted%20image%2020251111153346.png)
 
+<br><br>
 
 ## **1.5 Trunk Configuration
 
@@ -162,6 +167,8 @@ show interfaces trunk
 show vlan brief
 ```
 ![](images/Pasted%20image%2020251111155153.png)
+
+<br><br>
 
 ## **1.6 Router Subinterface Configuration (R1)**
 
@@ -211,6 +218,7 @@ show ip interface brief
 ```
 ![](images/Pasted%20image%2020251111160359.png)
 
+<br><br>
 
 ## **1.7 Securing Console and Privileged Access**
 
@@ -269,6 +277,7 @@ write memory
 
 > **Notes.:** The configuration includes both `password` and `secret` for demonstration purposes. In practice, `secret` always takes precedence over `password` and stores the value in encrypted form.
 
+<br><br>
 
 ## **1.8 Login Banner Configuration**
 
@@ -311,6 +320,7 @@ show running-config
 ```
 ![](images/Pasted%20image%2020251111170108.png)
 
+<br><br>
 
 ### **1.9 Conclusion**
 
