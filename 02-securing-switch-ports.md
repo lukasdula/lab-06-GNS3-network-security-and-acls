@@ -1,5 +1,6 @@
-
 # **2 – Securing Switch Ports**
+
+<br><br>
 
 ## **2.1 Introduction**
 
@@ -8,7 +9,7 @@ This chapter focuses on securing switch access ports to protect the network from
 
 ![](images/Pasted%20image%2020251111184750.png)
 
-
+<br><br>
 
 ## **2.2 Topology**
 
@@ -24,6 +25,7 @@ This chapter focuses on securing switch access ports to protect the network from
 | **Guest (VPCS)** | Host         | e0        | SW1            | Gi0/3          | 192.168.20.10 | 255.255.255.0 | 192.168.20.1 |
 | **Admin (VPCS)** | Host         | e0        | SW1            | Gi0/1          | 192.168.99.10 | 255.255.255.0 | 192.168.99.1 |
 
+<br><br>
 
 ## **2.3 Steps**
 
@@ -34,6 +36,7 @@ This chapter focuses on securing switch access ports to protect the network from
     
 3. Demonstrate how unused ports are administratively disabled to enhance network security.
 
+<br><br>
 
 ## **2.4 Port Security Configuration (SW1)**
 
@@ -86,6 +89,8 @@ show port-security address
 
 The command output confirms that each VLAN has one secure sticky MAC address assigned to its respective interface.
 
+<br><br>
+
 ## **2.5 Administrative Shutdown of Unused Ports**
 
 In this lab, the switch **has only four GigabitEthernet interfaces (Gi0/0–Gi0/3)**, all of which are already in use.  
@@ -104,6 +109,7 @@ end
 wr
  ```
 
+<br><br>
 `
 ## 2.6 **Conclusion**
 
