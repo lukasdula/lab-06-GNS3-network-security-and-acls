@@ -110,7 +110,7 @@ wr
  ```
 
 <br><br>
-`
+
 ## 2.6 **Conclusion**
 
 This chapter presents the basic concept of switch port protection. Port security limits device access, applies network segmentation, and provides stable and controlled switch operation.
