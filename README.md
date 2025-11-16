@@ -1,5 +1,7 @@
 # **Network Security and ACLs**
 
+<br><br>
+
 ### **Introduction and Objectives**
 
 This lab demonstrates essential network security functions from the CCNA I-II level. It focuses on VLAN segmentation, securing switch ports, and applying Access Control Lists (ACLs) to control communication between different network segments. Each chapter builds on the previous one — starting with VLAN configuration and basic device protection, continuing with port-security, and finishing with ACL implementation on the router. The result is a secure and well-segmented network that shows the main purpose of this lab.
@@ -7,7 +9,7 @@ This lab demonstrates essential network security functions from the CCNA I-II le
 
 ![](images/Pasted%20image%2020251111214815.png)
 
-
+<br><br>
 
 **Objectives are:**
 
@@ -21,8 +23,7 @@ This lab demonstrates essential network security functions from the CCNA I-II le
     
 - Verify connectivity and access control between VLANs
     
-
-
+<br><br>
 
 ## **Lab Structure**
 
@@ -32,8 +33,7 @@ This lab demonstrates essential network security functions from the CCNA I-II le
     
 3. [Access Control Lists](03-access-control-lists.md)
     
-
-
+<br><br>
 
 ## **Key Features**
 
@@ -47,8 +47,7 @@ This lab demonstrates essential network security functions from the CCNA I-II le
     
 - Verification confirming correct ACL operation
     
-
-
+<br><br>
 
 ## **Author’s Note**
 
