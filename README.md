@@ -1,6 +1,5 @@
 # **Network Security and ACLs**
 
-<br><br>
 
 ### **Introduction and Objectives**
 
@@ -9,7 +8,7 @@ This lab demonstrates essential network security functions from the CCNA I-II le
 
 ![](images/Pasted%20image%2020251111214815.png)
 
-<br><br>
+
 
 **Objectives are:**
 
@@ -23,7 +22,7 @@ This lab demonstrates essential network security functions from the CCNA I-II le
     
 - Verify connectivity and access control between VLANs
     
-<br><br>
+
 
 ## **Lab Structure**
 
@@ -33,7 +32,7 @@ This lab demonstrates essential network security functions from the CCNA I-II le
     
 3. [Access Control Lists](03-access-control-lists.md)
     
-<br><br>
+
 
 ## **Key Features**
 
@@ -47,7 +46,7 @@ This lab demonstrates essential network security functions from the CCNA I-II le
     
 - Verification confirming correct ACL operation
     
-<br><br>
+
 
 ## **Author’s Note**
 
